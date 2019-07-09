@@ -12,13 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    return view('home');})->name('home');
 
-Route::get('/batiments', function () {
-    return view('voir_batiments');
-});
+Route::get('/menu_batiments', function () {
+    return view('menu_batiments');})->name('menu_batiments');
 
 Route::post('/create', function () {
-    return view('creation_batiment');
-});
+    return view('creation_batiment');})->name('creation_batiment');
+
+
+/*---------------------------------------------------------------------
+ * ELOQUENT
+ * --------------------------------------------------------------------
+ */
+

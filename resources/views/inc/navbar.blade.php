@@ -10,7 +10,7 @@
         <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/batiments">Gestion des batiments <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/menu_batiments">Gestion des batiments <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
